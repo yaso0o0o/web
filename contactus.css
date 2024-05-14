@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+25&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+    scroll-behavior: smooth;
+}
+
+body {
+    min-height: 100vh;
+    overflow-x: hidden;
+    background: #cbafaf;
+    font-family: "Jersey 25", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+header {
+    background-color: #333; 
+    padding: 10px 40px; 
+}
+.logo {
+    color: #fff; 
+    text-decoration: none; 
+    font-size: 50px; 
+    font-weight: bold;
+    font-family: "Jersey 25", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+header ul li {
+    display: inline; 
+    margin-right: 400px; 
+}
+
+header ul li a {
+    color: #fdf7f7; 
+    text-decoration: underline; 
+    font-size: 20px; 
+}
+header ul li:last-child {
+    color: #bcbbbb; 
+    font-size: 14px;
+}
+.container {
+    max-width: 600px;
+    margin: 80px auto;
+    padding: 70px;
+    background-color: #0f0d0d;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #f2e6e6;
+    font-family: "Monoton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.form-group {
+    margin-bottom: 20px;
+}
+label {
+    display: block;
+    margin-bottom: 5px;
+    color:#f2e6e6;
+}
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ebdfdf;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+button {
+    background-color: #ac042b;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+button:hover {
+    background-color: #444;
+}

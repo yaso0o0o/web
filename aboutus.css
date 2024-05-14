@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Briem+Hand:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Briem+Hand:wght@100..900&family=Honk&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Briem+Hand:wght@100..900&family=Honk&family=Jersey+15&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Briem Hand", cursive;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  background:black;
+}
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .logo{
+    color: #e8d1e7;
+    text-decoration: none;
+    font-size:4em;
+    text-transform: none;
+    letter-spacing: 2px;
+    z-index:10000 ;
+    font-family: "Jersey 15", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+header ul{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    z-index:10000 ;
+}
+header ul li {
+    list-style: none;
+    margin-left: 20px;
+}
+header ul li a{
+    font-size: 30px;
+    text-decoration: none;
+    padding: 6px 15px;
+    color: #fff;
+    border-radius: 20px;
+    font-family: "Honk", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "MORF" 15,
+    "SHLN" 50;
+}
+header ul li a:hover,header ul li a.active{
+    background: #fff;
+    color: #2b1055;
+}
+body, h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+    padding: 0;
+}
+
+.team {
+    position: relative;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.container {
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 100px;
+    color: #f7eff3;
+    font-family: "Honk", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "MORF" 15,
+    "SHLN" 50;
+}
+.box1{
+    display: inline-block;
+    margin: 20px 300px;
+    text-align: center;
+    padding: 19px;
+    background: #2f2d31;
+    border-radius: 10px;
+    transition: all .38s ease;
+
+}
+.box {
+    display: inline-block;
+    margin: 20px 70px;
+    text-align: center;
+    padding: 19px;
+    background: #2f2d31;
+    border-radius: 10px;
+    transition: all .38s ease;
+}
+.box1 img {
+    border-radius: 20%;
+}
+
+.box img {
+    border-radius: 20%;
+}
+
+h3 {
+    margin-top: 10px;
+    font-size: 20px;
+    color: #ede3e3;
+    border-radius: 10px;
+
+}
+
+h5 {
+    margin-top: 5px;
+    font-size: 16px;
+    color: #777;
+    border-radius: 10px;
+}
+
+.social-links {
+    margin-top: 4px;
+    border-radius: 10px;
+}
+
+.social-links a {
+    margin: 0 5px;
+}
+footer {
+    background-color:#110706; 
+    color: #fff;
+}
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+.footer-section {
+    flex: 1;
+    margin-bottom: 20px;
+}
+.footer-section h3 {
+    color: #fff; 
+}
+.contact {
+    margin-top: 10px;
+}
+.socials {
+    margin-top: 10px;
+}
+.socials a {
+    color: #fff; 
+    margin-right: 10px;
+}
+.socials a:hover {
+    color: #b41b13; 
+}
+.links ul {
+    list-style: none;
+    padding: 0;
+}
+.links ul li {
+    margin-bottom: 10px;
+}
+.links ul li a {
+    color: #fff; 
+    text-decoration: none;
+}
+.links ul li a:hover {
+    color:  #b41b13;
+}
+.contact-form {
+    width: 100%;
+    top: 50%;
+}
+.text-input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #fff; 
+    background-color:#fff; 
+    color: #fff;
+}
+
+.footer-bottom {
+    text-align: center;
+    padding-top: -40px;
+    background-color:#7e6e6d;
+ }
